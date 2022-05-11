@@ -1,6 +1,8 @@
 # ⭐️ 7. Mi primer API
 
 1. Crea un nuevo proyecto de js llamado `express_api`, y agrega express como dependencia.
+
+![image](/assets/folder.png)
 2. Crea un archivo llamado `app.js` y agrega una app de express:
 
 ```js
