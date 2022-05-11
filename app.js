@@ -20,7 +20,7 @@ app.get('/v1/explorers', (req, res) => {
     res.status(200).json(explorers)
 })
 
-// -> Crea un endpoint que regresa un explorer mediando un ID
+// -> GET Crea un endpoint que regresa un explorer mediando un ID
 app.get('/v1/explorers/:id', (req, res) => {
     console.log(`Api Explorers GET request ${new Date()}`)
     console.log(`Getting explorer with id ${req.params.id}`)
@@ -28,7 +28,7 @@ app.get('/v1/explorers/:id', (req, res) => {
     res.status(200).json(explorer)
 })
 
-// -> Crea un endpoint que se encargue de crear un explorer
+// -> POST Crea un endpoint que se encargue de crear un explorer
 app.post('/v1/explorers', (req, res) => {
     console.log(`Api Explorers POST request ${new Date()}`)
     // parametros de un cliente
@@ -43,6 +43,15 @@ app.put('/v1/explorers/:id', (req, res) => {
     // Parametros de un cliente
     const requestBody = req.body
     res.status(200).json({message: "Update!"})
+})
+
+// -> DELETE Crea un endpoint para eliminar un explorer
+app.delete('/v1/explorers/:id', (req, res) => {
+    console.log(`Api Explorers DELETE request ${new Date()}`)
+    console.log(`Delete explorer with id ${req.params.id}`)
+    // Parametros de un cliente
+    const requestBody = req.body
+    res.status(200).json({message: "Delete"}) 
 })
 
 // Con esto inicializamos esta app
