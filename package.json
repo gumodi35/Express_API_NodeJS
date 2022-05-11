@@ -18,5 +18,6 @@
   "homepage": "https://github.com/gumodi35/Express_API_NodeJS#readme",
   "dependencies": {
     "express": "^4.18.1"
-  }
+  },
+  "devDependencies": {}
 }
