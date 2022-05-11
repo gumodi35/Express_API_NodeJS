@@ -3,6 +3,8 @@
 1. Crea un nuevo proyecto de js llamado `express_api`, y agrega express como dependencia.
 
 ![image](/assets/folder.png)
+![image](/assets/npminit.gif)
+![image](/assets/installexpress.gif)
 2. Crea un archivo llamado `app.js` y agrega una app de express:
 
 ```js
@@ -19,6 +21,7 @@ app.listen(port, () => {
  console.log(`Example app listening on port ${port}`)
 })
 ```
+![image](/assets/server.gif)
 
 # GET Crea un endpoint que regrese una lista de explorers
 
@@ -29,6 +32,8 @@ app.listen(port, () => {
 ![image](https://user-images.githubusercontent.com/17634377/163704396-f9c4ab2d-0aeb-4a00-9cc1-1507388c2b47.png)
 
 4. Levanta tu server `node app.js`.
+
+![image](/assets/endpoint.gif)
 
 # Probando tu Endpoint
 
@@ -46,6 +51,8 @@ Hay muchos clientes para probar endpoints (puedes buscarlo como HTTP Clients). T
 
 ![test](https://user-images.githubusercontent.com/17634377/163704616-c43526c2-6bd7-4662-8cca-970863775850.gif)
 
+![image](/assets/postpassed.gif)
+
 # GET Crea un endpoint que te regrese un explorer mediando un ID 
 
 1. Agrega el siguiente código:
@@ -54,6 +61,8 @@ Hay muchos clientes para probar endpoints (puedes buscarlo como HTTP Clients). T
 
 2. Recuerda parar y volver a levantar tu server para ver tus cambios recientes.
 3. Prueba el request 2 de postman.
+
+![image](/assets/idendpoint.gif)
 
 # POST Crea un endpoint que se encargue de crear un explorer 
 
@@ -64,6 +73,8 @@ Hay muchos clientes para probar endpoints (puedes buscarlo como HTTP Clients). T
 2. Nota que el `status code` es 201.
 3. Prueba el request 3 de postman.
 
+![image](/assets/postpassed.gif)
+
 # PUT Crea un endpoint que se encargue de actualizar un explorer
 
 1. Agrega el siguiente código:
@@ -72,6 +83,7 @@ Hay muchos clientes para probar endpoints (puedes buscarlo como HTTP Clients). T
 
 2. Prueba el request 4 de postman.
 
+![image](/assets/thunder2.gif)
 # DELETE Crea un endpoint para eliminar un explorer
 
 1. Agrega el siguiente código:
@@ -79,3 +91,5 @@ Hay muchos clientes para probar endpoints (puedes buscarlo como HTTP Clients). T
 ![image](https://user-images.githubusercontent.com/17634377/163704760-fa8d67d4-bd16-489e-940e-dd5703b3eafa.png)
 
 2. Prueba el request 5 de postman.
+
+![image](/assets/deletepassed.gif)
